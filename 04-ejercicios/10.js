@@ -4,16 +4,28 @@
  * 
  */
 
-let longitud = 5;
+// let longitud = 5;
 
-function crearArray(n) {
+// function crearArray(n) {
+//     let arr = [];
+//     for (let i = 0;i < n; i++){
+//         arr[i] = i+1;
+//     }
+//     return arr
+// }
+
+// let resultado = crearArray(longitud);
+
+// console.log(resultado);
+
+let longitud = 7;
+
+let crearArray = n => {
     let arr = [];
-    for (let i = 0;i < n; i++){
-        arr[i] = i+1;
+    for (let i = 0;i < n;i++){
+        arr[i]= i+1;
     }
-    return arr
+    return arr;
 }
 
-let resultado = crearArray(longitud);
-
-console.log(resultado);
+console.log(crearArray(longitud));
